@@ -11,7 +11,14 @@ console.log(gameName.toUpperCase());
 console.log(gameName.charAt(2));
 console.log(gameName.indexOf('t'));
 const newString = console.log(gameName.substring(0,3));
-console.log(newString);
+const AnotherString = gameName.slice(-8,4);
+console.log(AnotherString);
+
+const newStringOne = "    Lalith  ";
+console.log(newStringOne.trim());
+const url = "https://lalith.com/lalith%50Ghatty";
+console.log(url.replace('%50','-'));
+
 
 
 
