@@ -18,6 +18,7 @@ const newStringOne = "    Lalith  ";
 console.log(newStringOne.trim());
 const url = "https://lalith.com/lalith%50Ghatty";
 console.log(url.replace('%50','-'));
+console.log(gameName.includes("ith"));
 
 
 
