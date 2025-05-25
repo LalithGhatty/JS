@@ -10,6 +10,10 @@ console.log(gameName.length);
 console.log(gameName.toUpperCase());
 console.log(gameName.charAt(2));
 console.log(gameName.indexOf('t'));
+const newString = console.log(gameName.substring(0,3));
+console.log(newString);
+
+
 
 
 
